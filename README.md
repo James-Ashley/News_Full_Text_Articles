@@ -6,7 +6,7 @@ Version 1.0.0
 This project scrapes newspaper articles on the topic of immigration and stores the articles and metadata about the articles in a MongoDB database.
 
 ## Background
-As part of a previous project, we used the NewsAPI data to retrieve news articles on the topic of immigration from the past three months (9/2020 - 11/2020). This API call was run multiple times to retrieve as many articles as possible. We performed a sentiment analysis of the news headlines using NLTK’s Vader. The code for retrieving this data can be viewed here (ADD LINK HERE). 
+As part of a previous project, we used the NewsAPI data to retrieve news articles on the topic of immigration from the past three months (9/2020 - 11/2020). This API call was run multiple times to retrieve as many articles as possible. We performed a sentiment analysis of the news headlines using NLTK’s Vader. The code for retrieving this data can be viewed [here](https://github.com/James-Ashley/sentiment_analysis). 
 
 ## Data REtrieval and Cleaning
 
@@ -27,10 +27,10 @@ This text included line breaks and the string “AD” which were removed using 
 This final dataset included 2663 unique articles. This JSON file was loaded into a shared MongoDB database which all members of our group have access to.
 
 ## Challenges
-
+Some of the newspaper domains are behind paywalls, so we were not able to access all of the domains that we originally collected. In addition, the webscraping had to be divided into smaller chunks because scraping the entire dataset was extremely time consuming.
 
 ## Instructions
-
+All data used in this project is available in downloadable CSV/JSON files, but the MongoDB database is not publicly available. 
 
 ## Contributors
 James Ashley, Rebekah Callari-Kaczmarczyk, Brandon Martin, Scot Wilson
