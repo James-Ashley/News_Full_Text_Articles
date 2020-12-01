@@ -32,6 +32,11 @@ Some of the newspaper domains are behind paywalls, so we were not able to access
 ## Instructions
 All data used in this project is available in downloadable CSV/JSON files in this repository, but the MongoDB database is not publicly available. 
 
+The Jupyter notebooks should be run in the following order:
+* newsapi_data_cleaning
+* webscraping_news_articles (NOTE: this code  takes a significant amount of time to run due to the quantity of URLs being scraped.)
+* full_text_cleaning
+
 ## Contributors
 James Ashley, Rebekah Callari-Kaczmarczyk, Brandon Martin, Scot Wilson
 
