@@ -20,7 +20,7 @@ After cleaning, a final csv file with 2667 unique articles in 9 news source doma
 ### News Article Data
 In the future, we are interested in analyzing the full text of the articles which was not available to us through the NewsAPI. We used [Newspaper3K](https://newspaper.readthedocs.io/en/latest/) to webscrape the articles using the URLs in our NewsAPI dataset. 
 
-After scraping the full text of each article, the URLs and full text were saved in a Pandas dataframe. Duplicate URL’s and null values for the text were removed. This dataframe was merged with the original dataset using an inner join. This was saved to a JSON file to allow for further cleaning.
+After scraping the full text of each article, the URLs and full text were saved in a Pandas dataframe. Duplicate URLs and null values for the text were removed. This dataframe was merged with the original dataset using an inner join. This was saved to a JSON file to allow for further cleaning.
 
 This text included line breaks and the string “AD” which were removed using replace(), and a cleaned version of the JSON file was saved. 
 
@@ -30,7 +30,7 @@ This final dataset included 2663 unique articles. This JSON file was loaded into
 Some of the newspaper domains are behind paywalls, so we were not able to access all of the domains that we originally collected. In addition, the webscraping had to be divided into smaller chunks because scraping the entire dataset was extremely time consuming.
 
 ## Instructions
-All data used in this project is available in downloadable CSV/JSON files, but the MongoDB database is not publicly available. 
+All data used in this project is available in downloadable CSV/JSON files in this repository, but the MongoDB database is not publicly available. 
 
 ## Contributors
 James Ashley, Rebekah Callari-Kaczmarczyk, Brandon Martin, Scot Wilson
