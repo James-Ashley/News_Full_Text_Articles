@@ -24,7 +24,7 @@ After scraping the full text of each article, the URLs and full text were saved 
 
 This text included line breaks and the string “AD” which were removed using replace(), and a cleaned version of the JSON file was saved. 
 
-This final dataset included 2663 unique articles. This JSON file was loaded into a shared MongoDB database which all members of our group have access to.
+This final dataset included 2663 unique articles. This JSON file was loaded into a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/efficiency?utm_source=google&utm_campaign=gs_americas_united_states_search_brand_atlas_desktop&utm_term=mongo%20db%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=1718986498&gclid=Cj0KCQiAzZL-BRDnARIsAPCJs73Neav0dXAFnKxvZf1XZ8G5-W0V1fcElpaq_UV0d9h5WjDn31SS1x8aAiYIEALw_wcB) database which all members of our group have access to.
 
 ## Challenges
 Some of the newspaper domains are behind paywalls, so we were not able to access all of the domains that we originally collected. In addition, the webscraping had to be divided into smaller chunks because scraping the entire dataset was extremely time consuming.
